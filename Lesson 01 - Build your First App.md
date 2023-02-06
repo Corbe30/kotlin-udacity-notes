@@ -45,7 +45,7 @@ This intent-filter tells the OS where to start the app when the user clicks on t
 - Main activity is an example of an activity.
 - An activity is a core Android class that is responsible for drawing an app user interface and receiving input events.
 - When your app launches it launches a specific activity this is the activity that was declared in the manifest with the correct intent-filter tag.
-- Activities have an Associated layout file which in this case is activity underscore main.
+- Activities have an Associated layout file which in this case is ```activity_main```.
 - Layout files are XML files that express what the app actually looks like they do this by defining things like text images and buttons and where these things will appear on the screen. these text images and buttons are called views.
 - The activity and the layout are connected by a process known as layout inflation this process is triggered when the activity starts.
 
